@@ -25,6 +25,9 @@
 		hideAll(function(){
 			$('.nav .active').removeClass('active');
 			$('.nav a[href="#'+page+'"]').parent().addClass('active');
+			if (!page) {
+				page = 'home';
+			}
 			$('#'+page).fadeIn();
 		});
 	}
