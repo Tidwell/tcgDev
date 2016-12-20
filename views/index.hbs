@@ -15,17 +15,24 @@
 				<div>
 					{{#each newsItems}}
 
-					<div class="media">
-					  <div class="media-left">
+					<div class="media panel panel-default">
+					  <div class="media-left" style="background-image: url('{{img}}')">
 					    <a href="{{url}}" target="_new">
 					      <img class="media-object" src="{{img}}" alt="{{title}}">
 					    </a>
 					  </div>
-					  <div class="media-body">
+					  <div class="media-body panel-body">
 					    <h4 class="media-heading">
 					    	<a href="{{url}}" target="_new">
 					    		{{title}}
 					    	</a>
+					    	<p class="metadata">
+					    		{{created}}
+					    		<br />
+					    		{{#if comments}}
+					    			<a href="{{commentLink}}" target="new">{{comments}}</a>
+					    		{{/if}}
+					    	</p>
 					    </h4>
 					  </div>
 					</div>

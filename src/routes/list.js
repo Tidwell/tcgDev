@@ -23,7 +23,8 @@ router.get('/digital-games-list', function(req, res) {
 
 		res.render('list', {
 			listContent: listContent,
-			listActive: true
+			listActive: true,
+			pageTitle: 'Digital CCG List'
 		});
 	});
 });
