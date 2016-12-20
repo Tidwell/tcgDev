@@ -1,0 +1,39 @@
+<div class="container">
+	<section id="home">
+		<div class="row">
+			<div class="jumbotron">
+			  <h1><img src="/images/logo.png" /> tcgdev.info</h1>
+			  <p>
+			  	CCGs, TCGs, LCGs.
+			  </p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<h2>News from <a href="http://www.reddit.com/r/digitalccg" target="_new">/r/digitalccg</a></h2>
+				<hr />
+				<div>
+					{{#each newsItems}}
+
+					<div class="media">
+					  <div class="media-left">
+					    <a href="{{url}}" target="_new">
+					      <img class="media-object" src="{{img}}" alt="{{title}}">
+					    </a>
+					  </div>
+					  <div class="media-body">
+					    <h4 class="media-heading">
+					    	<a href="{{url}}" target="_new">
+					    		{{title}}
+					    	</a>
+					    </h4>
+					  </div>
+					</div>
+
+					{{/each}}
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+<!--/.fluid-container-->

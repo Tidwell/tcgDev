@@ -1,0 +1,10 @@
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+.jumbotron h1 img {
+	max-height: 1em;
+}
+.navbar-brand img {
+	max-height: 1em;
+}
