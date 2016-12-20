@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tidwell/tcgDev.git"
+    "url": "git+https://github.com/Tidwell/tcgdev.info.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Tidwell/tcgDev/issues"
+    "url": "https://github.com/Tidwell/tcgdev.info/issues"
   },
-  "homepage": "https://github.com/Tidwell/tcgDev#readme",
+  "homepage": "https://github.com/Tidwell/tcgdev.info#readme",
   "dependencies": {
     "cheerio": "^0.22.0",
     "express": "^4.14.0",
